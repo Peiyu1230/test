@@ -1,5 +1,5 @@
 version:"1"
 rules:
-  - base:main
+  - base:master
   upstream: lxk0301:master
   mergeMethod:hardreset
