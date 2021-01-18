@@ -1,2 +1,2 @@
 def main():
-    data=input()
+    data=input(RDATA)
