@@ -22,8 +22,7 @@ jobs:
         run: pip install requests
 
       - name: 'run 中青看点'
-        run: python yyy.py
+        run: python tixian.py
         
         env:
             rdata: ${{secrets.read }}
-            vdata:${{secrets.video }}
