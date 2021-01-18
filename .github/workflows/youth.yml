@@ -19,7 +19,7 @@ jobs:
           python-version: 3.7
 
       - name: 'Install requests'
-        run: pip3 install requests
+        run: pip install requests
 
       - name: 'run 中青看点'
         # qq_speed.py目录自己修改
