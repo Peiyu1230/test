@@ -25,4 +25,4 @@ jobs:
         run: python tixian.py
         
         env:
-            rdata: ${{secrets.READ }}
+            RDATA: ${{secrets.READ }}
