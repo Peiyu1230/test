@@ -21,6 +21,6 @@ jobs:
       - name: 'Install requests'
         run: pip3 install requests
 
-      - name: 'run 微信自选'
+      - name: 'run 中青看点'
         # qq_speed.py目录自己修改
         run: python3 yyy.py
