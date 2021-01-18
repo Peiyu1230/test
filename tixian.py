@@ -1,4 +1,1 @@
-def main():
-    data=input(RDATA)
-    print(data)
-main()
+print(os.environ)
