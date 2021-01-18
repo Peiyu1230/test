@@ -1,25 +1,26 @@
-name: jd_crazy
+name: 疯狂joy
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '*/30 * * * *'
   watch:
-    types: started
-  repository_dispatch:
-    types: jd_crazy
+    types: [started]
 jobs:
-  run:
+  build:
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Set up Python 3.7
-        uses: actions/setup-python@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
         with:
           python-version: 3.7
-      - name: '运行jd_crazy'
-        run: |
-          pip3 install requests
-          python3 jd_crazy.py
+
+      - name: 'Install requests'
+        run: pip install requests
+
+      - name: 'run 疯狂joy'
+        # qq_speed.py目录自己修改
+        run: python jd_crazy.py
