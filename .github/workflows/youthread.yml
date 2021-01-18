@@ -22,7 +22,6 @@ jobs:
         run: pip install requests
 
       - name: 'run 中青看点'
-        run: |
-          python tixian.py <<EOF
-          ${{secrets.READ }}
-          EOF
+        run: python tixian.py 
+        env:
+          RDATA: ${{ secrets.READ }}
