@@ -24,3 +24,5 @@ jobs:
       - name: 'run 疯狂joy'
         # qq_speed.py目录自己修改
         run: python jd_crazy.py
+        env:
+          COOKIE: ${{ secrets.COOKIE }}
