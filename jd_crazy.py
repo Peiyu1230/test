@@ -181,7 +181,7 @@ def upgrade_main(crazy_joy):
 if __name__ == "__main__":
     start_time = datetime.datetime.now()
 
-    cookie = 'pt_key=AAJf9FKAADDWhNRRopu5AO4jXVknhJxpAKjEQtkOGKMRg5w6AZHnJpWc65ZLM75iDuENVcQf9uM; pt_pin=13001930827_p;'
+    cookie = 'pt_key=AAJgCj99ADBf2a5p2scGnrV03ePpym092P7Z7XroyESGmfSy8ctLN0bISc0eUqOopRWthDrE6qI; pt_pin=13001930827_p;'
     separators = ['\n', '&', '\\n']
     for separator in separators:
         if separator in cookie:
