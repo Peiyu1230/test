@@ -8,6 +8,7 @@ from threading import Thread
 import random
 
 
+
 class CrazyJoy:
     JD_API_HOST = 'https://api.m.jd.com'
 
