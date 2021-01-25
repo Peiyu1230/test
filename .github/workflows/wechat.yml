@@ -2,7 +2,7 @@ name: 微信自选
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0,30 0,16 * * *'
   watch:
     types: [started]
 jobs:
