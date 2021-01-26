@@ -51,7 +51,7 @@ def jingxihongbao():
 def shichang():
     data=('p=9NwGV8Ov71o=gW5NEpb6rjb84bkaCQyOq-myT0C-Ktb_nHSVk1s5Pk1lOQlYKzDUPU9y0FiOH2nIRqKp1NEljKT7rNHR8sm-zNM1uYF037ZLhJ3Xl0xswFUmY-cQ_hr0wixkQsFjVI3HBBKV9Vi7Arv9ucr9IYetIj9Zqs0mPLwQax27ryeUONmZ4B0fZBEJVJLd6NpD1t2rsPgKIPESyHM_WWQ9Di8eTARetclf4o8zDdLAEaIRVg54LZRakoHMlArRKlXlZjQW6sFqXdSeATLz_D093IYRATKdFRTOOErqT8a0W-9iD_Sj_om7qE3yONtPqIKuP_xWkvElGbib-uRwf5PYfT9LIOtuyk64FBq4_A8MTjvddm9oc5VJi2QO5wp2baAjk77xAUfiyiWB3NQ2vz-mdBFvavR3u7tY3UCXD3Hnb5hvQ_ckYeBkcOMcKZBQgAAhIujSX0M5XFNWdVN1gQjnCmhb3vBkxur3myvtsWEdVC0tIfTZtAk9oIbu0MhPMTNfj0VIwGIzBEO9Vxqj2FriyeFN94ID1r7nRSQMJ47TAi8oustRDVERYCQhnDcOQlVh3Hkrghy8QDjhZoMTsbMnClNrybAmUwIAw4LnMOxRDcapZTt5JVf-yv5AXdOnTelGTyZwjEuFqqxhMM0IOZ1RdcxHA6g7-d1NtYFhJMHPqBctwb2R09flfZFeMP-57VuJtGCslTQeuDuAe4XkjHp_ybK_WRyZgARx8GHq_S9VNMwFGVg0lz4gFDLHqotCuhwR2Ze9bNLRiinuV2lFRG6fqV39OkKhzchBNp97uNWQaSf2yGL2Zkrl4DQKxB8zfzuOm5GjFxBbCoCHNZE')
     i=0
-    while i <10:
+    while i <3:
         res = requests.post(url='https://ios.baertt.com/v5/user/stay.json', headers=header, data=data)
         time.sleep(5)
     # print(res.json(),"获取金币"+res.json()["reward"]["score"])
@@ -62,7 +62,7 @@ def shichang():
 def choujiang():
     header={"Accept": "application/json","Accept-Encoding": "gzip, deflate, br","Accept-Language": "zh-cn","Connection": "keep-alive","Content-Type": "application/x-www-form-urlencoded","Cookie": "Hm_lpvt_268f0a31fc0d047e5253dd69ad3a4775=1610169254; Hm_lvt_268f0a31fc0d047e5253dd69ad3a4775=1610169129,1610169233,1610169254; sensorsdata2019jssdkcross=%7B%22distinct_id%22%3A%2251940599%22%2C%22%24device_id%22%3A%221763575b1a613a-0871492e6bc0dd8-754c1551-370944-1763575b1a710d6%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_referrer%22%3A%22%22%2C%22%24latest_referrer_host%22%3A%22%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%7D%2C%22first_id%22%3A%221763575b1a613a-0871492e6bc0dd8-754c1551-370944-1763575b1a710d6%22%7D; Hm_lvt_6c30047a5b80400b0fd3f410638b8f0c=1610169126","Host": "kd.youth.cn","Origin": "https://kd.youth.cn","Referer": "https://kd.youth.cn/html/rotaryTable/index.html?uuid=1dd528208ba88da3d1572edd27b5c8ae&sign=b132053ccab97213d18173117d8743a8&channel_code=80000000&uid=51940599&channel=80000000&access=WIfI&app_version=1.8.0&device_platform=iphone&cookie_id=edfb98c33168786704b5badae06693c5&openudid=1dd528208ba88da3d1572edd27b5c8ae&device_type=1&device_brand=iphone&sm_device_id=20190930204732d6bf45fbb1b1b8a70a973cdb43ca179701e2bd8328ac8959&device_id=48724486&version_code=180&os_version=14.2&cookie=MDAwMDAwMDAwMJCMpN-w09Wtg5-Bb36eh6CPqHualIejl66Fz2Kwp4luhoyp4LDPyGl9onqkj3ZqYJa8Y898najWsJupZLCnl7KEjIaYrt-mapqGcXY&device_model=iPhone_6_Plus&subv=1.5.1&&cookie=MDAwMDAwMDAwMJCMpN-w09Wtg5-Bb36eh6CPqHualIejl66Fz2Kwp4luhoyp4LDPyGl9onqkj3ZqYJa8Y898najWsJupZLCnl7KEjIaYrt-mapqGcXY&cookie_id=edfb98c33168786704b5badae06693c5","User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148","X-Requested-With": "XMLHttpRequest",}
     i = 0
-    while i < 10:
+    while i < 5:
         res=requests.post(url='https://kd.youth.cn/WebApi/RotaryTable/turnRotary?_=%s'%t,headers=header)
         time.sleep(5)
     # print(res.json(),"获取金币"+res.json()["data"]["score"])
@@ -89,7 +89,7 @@ def kanguanggao():
 
 
 if __name__ == '__main__':
-    qiandao()
+#     qiandao()
     yueduwenzhang()
     shipin()
     jingxihongbao()
