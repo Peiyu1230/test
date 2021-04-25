@@ -12,7 +12,7 @@ YOUTH_STARTBODY='access=WIFI&app_version=1.8.2&channel=80000000&channel_code=800
 YOUTH_WITHDRAWBODY='p=9NwGV8Ov71o%3DgW5NEpb6rjb84bkaCQyOq-myT0C-Ktb_kF97hamPuz4ZZk3rmRrVU_m2Z51XN3szZYaCPxNG07BYjyjwYkBVGTfTGYPVecze9u-jGHCQmfvey4yZrPyKR-cA01PbV3h61GBiHFc-skGrpoDK0eliCfJPX7f9_IVT-MEKcW_xpZBatH4KAexZ7tz4DKRYyIP8OmYeIgjnjRygIB0qTBZrh2BDf3Sttd3rs7YVvdVqQDAwq4UlWKqXiFKG2EuaouWQVr-Uu9U64DmN7LodloG1HnpwoYix-kgzs2CO59WvW8uhBp0zoEfFP_clDu6rEYFwr7Zx80cI7hlMP6IvjJzEndcDeWVGl1jN0cRK1h3w2HXtwQ6Nx7o4jkjTlKNQDmde43UK9eACHvzCpzA4O2OR09-LEp42AQIsL1qhUnIlKtMk0D_B6u9d3Mcrcq854GrucAc9dNqZetl8wNYVx4MviS2tUqruWR183D00z6KUKL5U6foO7zQsGtm4oppUCEmse8sEU1T3BiYTU789rspt32ckbYYY4AiAZOirUVTp4h3yKVoSXqkp_l67mKG3CBa6-zTfK3_VNsTWUAQ5XkRvg5PAMffMn0zDnJmWSIWXZZMFcK0G1cOQGAvvkb3s0PWP1zxhRwSq8HutTm3qLOeiCwMzU1If_5hw4JD2W1Kg_ObwJaSDySAuMTBu9LtfpqR-Brl2aQ__vT6XIMH38oELt96afJfCD8ooZaR716Hrgqp9FRKwbIx2lDTjUxRoymuUb_DmtjIzUT3NjlogN2I3sJxVJzk2xwryQHSCB6_pjxPPLl_MX6XtddUc3ikzCsmsRbr4_YKyrUw%3D'
 data={
         'cookie': 'MDAwMDAwMDAwMJCMpN-w09Wtg5-Bb36eh6CPqHualIejl66Fz2Kwp4luhoyp4LDPyGl9onqkj3ZqYJa8Y898najWsJupZLCnl7KEjIaYrt-mapqGcXY',
-        'cookie_id': 'MDAwMDAwMDAwMJCMpN-w09Wtg5-Bb36eh6CPqHualIejl66Fz2Kwp4luhoyp4LDPyGl9onqkj3ZqYJa8Y898najWsJupZLCnl7KEjIaYrt-mapqGcXY',
+        'cookie_id': 'edfb98c33168786704b5badae06693c5',
         'app_version': '1.8.2',
         'channel': '80000000',
         'device_type': '1'}
